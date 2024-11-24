@@ -1,0 +1,98 @@
+* {
+  color: black;
+}
+
+body {
+  margin: 0%;
+}
+
+nav {
+  background-color: #ABBEB3;
+  height: 100px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+nav div {
+  width: 100%;
+}
+nav .menu {
+  margin-left: 100px;
+  display: flex;
+  text-align: center;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+nav .menu a {
+  line-height: 1.5;
+  display: inline-block;
+  width: 200px;
+  text-decoration: none;
+}
+nav .menu div {
+  line-height: 100px;
+  height: 100px;
+}
+nav .menu div:hover {
+  background-color: #2D6A4A;
+}
+nav img {
+  padding-left: 100px;
+  width: 90px;
+}
+nav .login {
+  padding-right: 100px;
+  text-align: right;
+  font-weight: bold;
+}
+nav .login a {
+  color: #2D6A4A;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+#dashboard img {
+  width: 65%;
+  align-content: center;
+}
+#dashboard h1 {
+  color: black;
+  text-align: center;
+}
+
+#berita {
+  align-content: center;
+  width: 90%;
+  margin-left: 50px;
+}
+
+.artikel {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 300px auto;
+  grid-template-rows: auto 90%;
+}
+.artikel .grid-item {
+  margin-top: 0px;
+}
+.artikel img {
+  width: 100%;
+}
+.artikel a {
+  color: blue;
+}
+.artikel a:hover {
+  color: black;
+}
+
+.item1 {
+  grid-column: 1;
+  grid-row: 1/span 2;
+}
+
+.item2 {
+  font-size: large;
+  font-weight: bold;
+  grid-column: 2;
+  grid-row: 1;
+}/*# sourceMappingURL=style.css.map */
