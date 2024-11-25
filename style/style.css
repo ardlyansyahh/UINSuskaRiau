@@ -14,6 +14,9 @@ nav {
   align-items: center;
 }
 nav div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 nav .menu {
@@ -37,7 +40,6 @@ nav .menu div:hover {
   background-color: #2D6A4A;
 }
 nav img {
-  padding-left: 100px;
   width: 90px;
 }
 nav .login {
@@ -95,4 +97,21 @@ nav .login a {
   font-weight: bold;
   grid-column: 2;
   grid-row: 1;
+}
+
+label {
+  font-size: larger;
+}
+
+#loginform {
+  font-size: large;
+}
+#loginform button {
+  width: 200px;
+  font-size: large;
+  background-color: #ABBEB3;
+  color: #2D6A4A;
+  font-weight: bold;
+  border: #2D6A4A;
+  border-style: solid;
 }/*# sourceMappingURL=style.css.map */

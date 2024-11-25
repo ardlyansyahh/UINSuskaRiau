@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  width: 100%;
+  background-color: #ABBEB3;
+  height: 110px;
+  line-height: 100px;
+  text-align: center;
+}
+nav div {
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+nav img {
+  padding: 10px;
+  width: 80px;
+}
+nav button {
+  background-color: #ABBEB3;
+  color: #2D6A4A;
+  border-color: #2D6A4A;
+  font-size: large;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 25px;
+  width: 70px;
+  height: 30px;
+}
+nav button:hover {
+  background-color: #2D6A4A;
+  color: #ABBEB3;
+  border: #ABBEB3;
+}
+
+body {
+  background-image: url(assets/pattern.jpg);
+}
+
+#content {
+  display: grid;
+  grid-template-columns: auto 70%;
+  margin-left: 20px;
+  padding-top: 120px;
+}
+#content h3 {
+  padding-top: 100px;
+}
+#content button {
+  border-style: solid;
+  border: #2D6A4A;
+  background-color: #ABBEB3;
+  color: #2D6A4A;
+  font-size: 15px;
+  width: 290px;
+  height: 30px;
+  border-radius: 25px;
+}
+#content button:hover {
+  background-color: #2D6A4A;
+  color: #ABBEB3;
+  font-weight: bold;
+}
+
+#about {
+  margin-left: 20px;
+}
+#about h3 {
+  padding-top: 100px;
+}
+#about #cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+#about #cards .card {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color: #2D6A4A;
+  color: #ABBEB3;
+  margin: 30px;
+  border-radius: 25px;
+  line-height: 200px;
+  vertical-align: 100px;
+}
+#about #cards .card:hover {
+  background-color: #ABBEB3;
+  color: #2D6A4A;
+}
+
+#bloker {
+  background-image: url(assets/discussing-project.jpg);
+  background-size: cover;
+  background-position: center 700px;
+}
+
+#loker {
+  padding-top: 100px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto 60%;
+  color: white;
+}
+#loker h3 {
+  padding-bottom: 20px;
+}
+#loker button {
+  padding: 10px;
+  border: white;
+  color: white;
+  border-style: solid;
+  width: 300px;
+  background: none;
+  border-radius: 10px;
+}
+#loker button:hover {
+  background-color: white;
+  color: #2D6A4A;
+  font-weight: bold;
+}
+
+#tentang {
+  margin-top: 20px;
+}
+#tentang #tentanggrid {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#footer {
+  background-color: #ABBEB3;
+}
+#footer #isifooter {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20px;
+}
+#footer #isifooter img {
+  width: 100px;
+}/*# sourceMappingURL=style2.css.map */

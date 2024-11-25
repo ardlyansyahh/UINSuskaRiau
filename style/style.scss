@@ -14,6 +14,9 @@ nav{
     gap: 20px;
     align-items: center;
     div{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
     .menu{
@@ -38,7 +41,6 @@ nav{
         }
     }
     img{
-        padding-left: 100px;
         width: 90px;
     }
     .login{
@@ -100,6 +102,20 @@ nav{
     grid-row: 1;
 }
 
+label{
+    font-size: larger;
+}
 
+#loginform{
+    font-size: large;
 
-
+    button{
+        width: 200px;
+        font-size: large;
+        background-color: #ABBEB3;
+        color: #2D6A4A;
+        font-weight: bold;
+        border: #2D6A4A;
+        border-style: solid;
+    }
+}
