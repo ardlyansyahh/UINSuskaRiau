@@ -145,4 +145,71 @@ body {
 }
 #footer #isifooter img {
   width: 100px;
+}
+
+#profil {
+  padding: 20px;
+  padding-top: 120px;
+}
+#profil button {
+  background: none;
+  border-style: solid;
+  border-color: #2D6A4A;
+  color: #2D6A4A;
+  width: 150px;
+  padding: 10px;
+}
+#profil button:hover {
+  background-color: #2D6A4A;
+  color: white;
+  font-weight: bold;
+}
+
+.kuesioner th {
+  background-color: #2D6A4A;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  padding: 0 30px;
+}
+.kuesioner td {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tautan a {
+  text-decoration: none;
+  color: black;
+}
+.tautan a:hover {
+  color: #2D6A4A;
+}
+
+#dashboard h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+#loginform {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+#loginform button {
+  background: none;
+  border-style: solid;
+  border-color: #2D6A4A;
+  color: #2D6A4A;
+  width: 170px;
+  padding: 10px;
+}
+#loginform button:hover {
+  background-color: #2D6A4A;
+  color: white;
+  font-weight: bold;
 }/*# sourceMappingURL=style2.css.map */
